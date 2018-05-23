@@ -1,0 +1,16 @@
+//  Created by : Peter Zhu
+//  Created on : May
+//  This is a program about calculate the energy
+import Foundation
+var answer = 0
+
+var theSpeedOfLight = 299800000
+print("Enter mass number ")
+var respond = readLine()
+let final = (respond as! NSString).integerValue
+answer = final*theSpeedOfLight*theSpeedOfLight
+
+print (answer)
+
+
+
